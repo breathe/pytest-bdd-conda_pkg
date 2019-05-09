@@ -20,8 +20,8 @@ build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-  host:
-    - python=3.4
+  build:
+    - python=3.6
     - setuptools
     - glob2
     - mako
@@ -31,7 +31,7 @@ requirements:
     - pytest >=3.0.0
     - six >=1.9.0
   run:
-    - python=3.4
+    - python=3.6
     - setuptools
     - glob2
     - mako
